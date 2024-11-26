@@ -1,5 +1,5 @@
 {
-    "name": "coodde/laravel-mail-checker",
+    "name": "coodde/laravel-email-checker",
     "description": "Validates email addresses belong to their domains",
     "type": "library",
     "keywords": [ "laravel", "validation", "email", "email domain", "validator", "email checker" ],
