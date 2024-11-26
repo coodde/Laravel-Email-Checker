@@ -6,13 +6,10 @@ use Illuminate\Contracts\Validation\ValidationRule;
 
 abstract class AbstractMailValidator implements ValidationRule
 {
-	protected MailChecker $mailChecker;
+    protected MailChecker $mailChecker;
 
-	/**
-	 * Run the validation rule.
-	 */
-	public function validate(string $attribute, mixed $value, Closure $fail): void
-	{
-
-	}
+    /**
+     * Run the validation rule.
+     */
+    public function validate(string $attribute, mixed $value, Closure $fail): void {}
 }
