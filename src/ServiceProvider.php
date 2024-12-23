@@ -9,17 +9,10 @@ use Coodde\LaravelMailChecker\Rules\MailListedValidator;
 use Coodde\LaravelMailChecker\Rules\MailRegionsValidator;
 use Coodde\LaravelMailChecker\Rules\MailValidator;
 use Illuminate\Support\ServiceProvider as SupportServiceProvider;
+use Illuminate\Validation\Validator;
 
 class ServiceProvider extends SupportServiceProvider
 {
-    /**
-     * Register package services.
-     */
-    /*public function register(): void
-    {
-        $this->initializeConfigs();
-    }*/
-
     public function boot(): void
     {
         // Register custom validation rules
